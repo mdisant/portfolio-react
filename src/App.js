@@ -6,6 +6,7 @@ import Portfolio from './pages/Portfolio';
 import Gallery from './pages/Gallery';
 import Resume from './pages/Resume';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/resume" element={<Resume />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );

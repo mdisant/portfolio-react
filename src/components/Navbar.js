@@ -30,7 +30,7 @@ function Navbar() {
                 <Link to="/resume"> Resume </Link>
             </div>
         </div >
-    )
+    );
 }
 
-export default Navbar
+export default Navbar;
