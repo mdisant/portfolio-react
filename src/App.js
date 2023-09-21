@@ -5,11 +5,13 @@ import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
 import Gallery from './pages/Gallery';
 import Resume from './pages/Resume';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/portfolio" element={<Portfolio />} />
