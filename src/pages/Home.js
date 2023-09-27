@@ -12,6 +12,7 @@ function ButtonLink({ to, children }) {
       padding: 10px 60px;
       border-radius: 5px;
       margin: 10px 0px;
+      width: 200px;
       cursor: pointer;
       text-decoration: none;
         &:hover,
