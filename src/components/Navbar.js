@@ -24,10 +24,10 @@ function Navbar() {
                 </button>
             </div>
             <div className='links'>
-                <Link to="/"> Home </Link>
-                <Link to="/portfolio"> Portfolio </Link>
-                <Link to="/gallery"> Gallery </Link>
-                <Link to="/resume"> Resume </Link>
+                <Link to="/" class='MD'>Michael DiSanto</Link>
+                <Link to="/portfolio">Portfolio</Link>
+                <Link to="/gallery">Gallery</Link>
+                <Link to="/resume">Resume</Link>
             </div>
         </div >
     );

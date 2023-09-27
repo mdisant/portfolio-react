@@ -1,14 +1,33 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import "../styles/Home.css";
+import styled from "styled-components";
+
 
 function ButtonLink({ to, children }) {
-    return <Link to={to}><button>{children}</button></Link>;
+    const Button = styled.button`
+      background-color: #1d1d1f;
+      color: white;
+      font-size: 20px;
+      padding: 10px 60px;
+      border-radius: 5px;
+      margin: 10px 0px;
+      cursor: pointer;
+      text-decoration: none;
+        &:hover,
+        &:focus {
+            background-color: black;
+            transition: background 0.25s ease-in-out;
+        }
+    `;
+    return <Link to={to} ><Button>{children}</Button></Link>;
 }
+
+
 
 function Home() {
     return (
-        <div className='Home'>
+        <div className='home'>
             <div className="about">
                 <h2>Driven to build, inspired by learning.</h2>
                 <div className='intro'>
