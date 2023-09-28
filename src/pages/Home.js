@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import "../styles/Home.css";
 import styled from "styled-components";
+import Particles from "react-particles";
+import { loadFull } from "tsparticles";
+import particlesOptions from "../particles.json";
 
 
 function ButtonLink({ to, children }) {
@@ -25,10 +28,17 @@ function ButtonLink({ to, children }) {
 }
 
 
-
 function Home() {
+    const particlesInit = useCallback(main => {
+        loadFull(main);
+    }, [])
+
     return (
+
+
+
         <div className='home'>
+            <Particles options={particlesOptions} init={particlesInit} />
             <div className="about">
                 <h2>Driven to build, inspired by learning.</h2>
                 <div className='intro'>
