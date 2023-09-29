@@ -54,6 +54,31 @@
     font-size: 25px;
 }
 
+.filterButtons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.filterButtons button {
+    padding: 5px 10px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.filterButtons button.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.projectList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
 @media only screen and (max-width: 1300px) {
     .projectList {
         grid-template-columns: 1fr 1fr;
