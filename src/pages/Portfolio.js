@@ -41,8 +41,7 @@ function Portfolio() {
                     <button
                         key={skill}
                         className={selectedFilters.includes(skill) ? 'active' : ''}
-                        onClick={() => toggleFilter(skill)}
-                    >
+                        onClick={() => toggleFilter(skill)}>
                         {skill}
                     </button>
                 ))}
@@ -52,7 +51,7 @@ function Portfolio() {
             </div>
             <div className='projectList'>
                 {filteredProjects.map((project, idx) => {
-                    return <ProjectItem key={idx} name={project.name} image={project.image} />;
+                    return <ProjectItem key={idx} name={project.name} image={project.image} link={project.link} />;
                 })}
             </div>
         </div>
