@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
 import Gallery from './pages/Gallery';
-import Resume from './pages/Resume';
 import ProjectDisplay from './pages/ProjectDisplay';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -24,7 +23,6 @@ function App() {
                     <Route path="/portfolio" element={<Portfolio />} />
                     <Route path="/project/:id" element={<ProjectDisplay />} />
                     <Route path="/gallery" element={<Gallery />} />
-                    <Route path="/resume" element={<Resume />} />
                 </Routes>
                 <Footer />
             </Router>
