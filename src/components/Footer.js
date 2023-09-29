@@ -8,9 +8,15 @@ function Footer() {
     return (
         <div className="footer">
             <div className='socialMedia'>
-                <TwitterIcon />
-                <LinkedInIcon />
-                <GitHubIcon />
+                <a href="https://twitter.com/TheMikeDiSanto" target="_blank" rel="noopener noreferrer">
+                    <TwitterIcon />
+                </a>
+                <a href="https://www.linkedin.com/in/mpdisanto/" target="_blank" rel="noopener noreferrer">
+                    <LinkedInIcon />
+                </a>
+                <a href="https://github.com/mdisant" target="_blank" rel="noopener noreferrer">
+                    <GitHubIcon />
+                </a>
             </div>
             <div className="contactInfo">
                 mikepdi@yahoo.com | 914-403-1696
