@@ -33,6 +33,6 @@ export const ProjectList = [
         name: "MassDep",
         link: "massdep",
         image: massdep,
-        skills: "Data Analysis, Excel, ArcGIS"
+        skills: "Data Analysis, Excel, ArcGIS, Consulting"
     },
 ];

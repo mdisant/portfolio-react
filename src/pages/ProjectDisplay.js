@@ -25,7 +25,7 @@ function ProjectDisplay() {
             <GitHubIcon />
 
             {/* Add a Back button to navigate back to the portfolio page */}
-            <Link to="/portfolio">Back to Portfolio</Link>
+            <button onClick={() => window.history.back()}>Back</button>
         </div>
     );
 }
