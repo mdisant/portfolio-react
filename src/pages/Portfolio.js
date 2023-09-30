@@ -16,10 +16,6 @@ function Portfolio() {
         }
     };
 
-    const resetFilters = () => {
-        setSelectedFilters([]);
-    };
-
     useEffect(() => {
         if (selectedFilters.length === 0) {
             setFilteredProjects(ProjectList);

@@ -6,13 +6,7 @@
     align-items: center;
     flex-direction: column;
     font-family: "forma-djr-display", sans-serif;
-}
-
-.projects .projectTitle {
-    text-align: center;
-    color: #3e497a;
-    font-size: 60px;
-    font-weight: bolder;
+    color: #1d1d1f;
 }
 
 .projectList {
@@ -70,6 +64,7 @@
 .filterButtons button {
     background-color: transparent;
     color: #1d1d1f;
+    font-weight: bold;
     border: 2px solid #1d1d1f;
     padding: 10px 20px;
     margin-right: 10px;
