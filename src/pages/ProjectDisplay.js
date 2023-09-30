@@ -2,6 +2,7 @@ import React from 'react';
 import { useParams, Link } from 'react-router-dom'; // Import Link for the back button
 import { ProjectList } from '../helpers/ProjectList';
 import GitHubIcon from "@mui/icons-material/GitHub";
+import styled from "styled-components";
 import "../styles/ProjectDisplay.css";
 
 function ProjectDisplay() {

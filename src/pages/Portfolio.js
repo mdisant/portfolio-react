@@ -46,9 +46,6 @@ function Portfolio() {
                     </button>
                 ))}
             </div>
-            <div className='filterButtons'>
-                <button onClick={resetFilters}>Reset</button>
-            </div>
             <div className='projectList'>
                 {filteredProjects.map((project, idx) => {
                     return <ProjectItem key={idx} name={project.name} image={project.image} link={project.link} />;
