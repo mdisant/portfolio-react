@@ -4,6 +4,9 @@
     /* Adjust the minimum and maximum width as needed */
     gap: 10px;
     /* Adjust this value for spacing between photos */
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .gallery-item {
@@ -13,10 +16,4 @@
 .gallery-item img {
     width: 100%;
     height: auto;
-}
-
-/* Style for vertical images */
-.vertical-image {
-    grid-column: span 2;
-    /* Make vertical images span two columns */
 }
