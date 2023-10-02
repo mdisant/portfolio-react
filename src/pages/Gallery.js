@@ -1,9 +1,18 @@
 import React from 'react';
+import imageData from '../helpers/imageData.json'; // Import the JSON file
+import '../styles/Gallery.css';
 
-function Gallery() {
+const Gallery = () => {
     return (
-        <div>Gallery</div>
+        <div className="gallery">
+            {imageData.images.map((imageName, index) => (
+                <div key={index} className="gallery-item">
+                    {/* Use the imported image name with the extension */}
+                    <img src={`/images/${imageName}.png`} alt={imageName} />
+                </div>
+            ))}
+        </div>
     );
-}
+};
 
 export default Gallery;

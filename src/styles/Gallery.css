@@ -1,0 +1,22 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    /* Adjust the minimum and maximum width as needed */
+    gap: 10px;
+    /* Adjust this value for spacing between photos */
+}
+
+.gallery-item {
+    overflow: hidden;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Style for vertical images */
+.vertical-image {
+    grid-column: span 2;
+    /* Make vertical images span two columns */
+}
