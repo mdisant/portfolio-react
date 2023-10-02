@@ -20,9 +20,13 @@ function ProjectDisplay() {
             <h1>{project.name}</h1>
             <img src={project.image} alt={project.name} />
             <p>
-                <b>Skills:</b> {project.skills}
+                <i>{project.skills}</i>
             </p>
-            <GitHubIcon />
+            <div className='projectDescription'>
+                <p>{project.description}</p>
+            </div>
+
+            {project.ghLink && <a href={project.ghLink} target="_blank" rel="noopener noreferrer"><GitHubIcon /></a>}
 
             {/* Add a Back button to navigate back to the portfolio page */}
             <button onClick={() => window.history.back()}>Back</button>
