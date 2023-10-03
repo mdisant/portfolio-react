@@ -31,7 +31,7 @@ function Portfolio() {
 
     return (
         <div className="projects">
-            <h1>My Personal Portfolio</h1>
+            <h1>Project Portfolio</h1>
             <div className='filterButtons'>
                 {uniqueSkills.map(skill => (
                     <button
