@@ -9,7 +9,6 @@ import portfolio_2 from "../assets/portfolio-2.png";
 import portfolio_3 from "../assets/portfolio-3.png";
 import cc_fraud_pred from "../assets/cc-fraud-pred.png";
 import nft_gen from "../assets/nft-gen.png";
-import gpt_wordle from "../assets/gpt-wordle.png";
 import house_prices from "../assets/house-prices.png";
 import pga from "../assets/pga.jpg";
 
@@ -19,7 +18,7 @@ export const ProjectList = [
         link: "pga",
         image: pga,
         skills: "Python, Machine Learning",
-        description: "",
+        description: "Golf is becoming a data-driven sport, where ShotLink technology is taking over the sport. This has introduced new variables in which players and fans can analyze PGA Tour performances. As deeper and more descriptive data enters the sport, machine learning models can be applied to predict final score outcomes and find the most important data points.",
         ghLink: "https://github.com/mdisant/pga-ml"
     },
     {
@@ -27,7 +26,7 @@ export const ProjectList = [
         link: "portfolio-3",
         image: portfolio_3,
         skills: "Web Development",
-        description: "",
+        description: "This is the third iteration of my personal project portfolio. In taking the webpage to the next level, I developed the portfolio using React JS. With faster rendering, iterative development of components, and a greater capacity to showcase my work, I have realized the benefits of using such a powerful library. My favorite part: playing with the particles on the home page.",
         ghLink: "https://github.com/mdisant/portfolio-react"
     },
     {
@@ -35,7 +34,7 @@ export const ProjectList = [
         link: "house-prices",
         image: house_prices,
         skills: "Python, Machine Learning",
-        description: "",
+        description: "Through training the Random Forest model on standardized housing price data, prices can be predicted with relatively low error. Using the Ames Housing dataset on Kaggle, the model achieved a mean squared error of 0.0192. Additionally, the model uncovered some of the more accurate variables in predicting house prices, including the overall quality, exterior quality, and neighborhood.",
         ghLink: "https://github.com/mdisant/house-prices"
     },
     {
@@ -43,15 +42,7 @@ export const ProjectList = [
         link: "cc-fraud-pred",
         image: cc_fraud_pred,
         skills: "Python, Machine Learning",
-        description: "",
-        ghLink: "https://github.com/mdisant/credit-card-fraud-detection"
-    },
-    {
-        name: "Credit Card Fraud Detection",
-        link: "cc-fraud-pred",
-        image: cc_fraud_pred,
-        skills: "Python, Machine Learning",
-        description: "",
+        description: "The Machine Learning Group's Credit Card Fraud Detection dataset provides a clean dataset to practice logistic regression. Here, I apply under and oversampling methods on the data, achieving 92.38% and 95.32% accuracies with the logistic regression model, respectively. Both techniques provide a unique approach to solving the problem, but I learned the importance of deleting and manufacturing data using these methods.",
         ghLink: "https://github.com/mdisant/credit-card-fraud-detection"
     },
     {
@@ -59,7 +50,7 @@ export const ProjectList = [
         link: "portfolio-2",
         image: portfolio_2,
         skills: "Web Development",
-        description: "",
+        description: "The second iteration of my personal project portfolio is a complete overhaul of my original page. Focusing on design principles in color and font selection, this version is much more visually appealing. While major improvements were made to the webpage, it is no longer the current iteration of my online presence. ",
         ghLink: "https://github.com/mdisant/portfolio"
     },
     {
@@ -67,7 +58,7 @@ export const ProjectList = [
         link: "MSCI-nlp",
         image: msci,
         skills: "Python, Natural Language Processing, Consulting",
-        description: "The University of Stellenbosch and Center for Conflict and Collaboration are using NLP to detect socio-political risks and prevent conflicts in South Africa. My team in the Information Analysis Capstone course at the Unviersity of Michigan School of Information (UMSI) developed a more accurate model by identifying feature importance and standardized values for word collocation across Morgan Stanley Capital International (MSCI) All-World Index annual reports.",
+        description: "The University of Stellenbosch is working to detect socio-political risks in preventing conflicts in South Africa. My team in the Information Analysis Capstone course at the University of Michigan School of Information developed a model to identify companies associated with risk across South African financial reports. We leveraged natural language processing techniques in word collocation to standardize conflict values, and applied multi-dimensional scaling to prepare the data for machine learning models.",
         ghLink: ""
     },
     {
@@ -75,23 +66,15 @@ export const ProjectList = [
         link: "horse-racing",
         image: horse_racing,
         skills: "Python, Machine Learning",
-        description: "This final project from the Data Exploration course at UMSI attempted to predict the finish time of horses in Hong Kong horse racing using a combination of race and horse attributes, as well as trainer and jockey quality. We merged datasets from Kaggle, conducted exploratory data analysis, cleaned the data, and engineered new features before using linear and random forest regression models to make predictions.",
+        description: "This final project from the Data Exploration course at UMSI predicts the finish time of horses in Hong Kong horse racing using race conditions and horse attributes. We merged datasets from Kaggle, conducted exploratory data analysis, cleaned the data, and engineered new features before using linear and random forest regression models to make predictions. Our team predicted finish times on the test data with an accuracy of 91.57% using the Random Forest Regressor model.",
         ghLink: ""
-    },
-    {
-        name: "ChatGPT Wordle",
-        link: "gpt-wordle",
-        image: gpt_wordle,
-        skills: "Python",
-        description: "",
-        ghLink: "https://github.com/mdisant/gpt-wordle"
     },
     {
         name: "Wordle Solver",
         link: "wordle",
         image: wordle,
         skills: "Python",
-        description: "This project analyzed the popular online word-guessing game WORDLE using big data. This was my final project for the Computational Analysis of Big Data course at DIS Copenhagen. My team utilized a dataset of the most common 1/3 million words in the English language and created a solving algorithm using entropy calcuations.",
+        description: "This project analyzed the popular online word-guessing game Wordle using big data, my final project for the Computational Analysis of Big Data course at DIS Copenhagen. My team utilized a dataset of the most common 1/3 million words in the English language and created a solving algorithm using entropy calculations. Through this project, we were able to explore the reasoning and methodology in solving this daily word game.",
         ghLink: "https://github.com/lina-drechsler/WORDLE_SOLVER"
     },
     {
@@ -107,7 +90,7 @@ export const ProjectList = [
         link: "nft-gen",
         image: nft_gen,
         skills: "Python",
-        description: "",
+        description: "During the height of Crypto/NFT mania, I came up with a method to easily create NFTs with different attributes and layers. This program creates unique images, where each iteration has at least one unique feature. The metadata is stored in an external file to display the rarity of each generated image.",
         ghLink: "https://github.com/mdisant/nft-generator"
     },
     {
@@ -115,7 +98,7 @@ export const ProjectList = [
         link: "massdep",
         image: massdep,
         skills: "Excel, Consulting",
-        description: "My project team for Reach Consulting Group at UMSI consulted for the Massachusetts Department of Environmental Protection to analyze the relationship between environmental justice communities and vehicle inspection failure rates. Ultimately, we created an ArcGIS map overlaying inspection failures in environmental justice communities.",
+        description: "My project team for Reach Consulting Group at UMSI consulted for the Massachusetts Department of Environmental Protection to analyze the relationship between environmental justice communities and vehicle inspection failure rates. We created an ArcGIS map overlaying inspection failures in environmental justice communities to assist the department in uncovering outlier regions in the state..",
         ghLink: ""
     },
     {
@@ -123,7 +106,7 @@ export const ProjectList = [
         link: "si330-portfolio",
         image: si330,
         skills: "Web Development",
-        description: "",
+        description: "The first iteration of my personal project portfolio was the final project in my Web Design, Development, and Accessibility course at Michigan. Through showcasing my interests and experience with responsive and inclusive design principles, I learned the requirements of programming your own website from scratch.",
         ghLink: "https://github.com/mdisant/330_final_portfolio"
     },
     {
@@ -131,7 +114,7 @@ export const ProjectList = [
         link: "twitter-crypto",
         image: twitter_crypto,
         skills: "Python, SQL",
-        description: "",
+        description: "This program integrates cryptocurrency price data with Twitter metadata. My final project team in the Data-Oriented Programming course at Michigan utilized the CoinMarketCap API and Twitter API (accessed through the Tweepy Python library). We determined the correlation between the price changes and the number of Tweets to gain insight into how the price changes with respect to Twitter popularity.",
         ghLink: "https://github.com/mdisant/206_final"
     },
 ];
