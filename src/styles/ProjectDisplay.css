@@ -34,6 +34,18 @@
     line-height: 1.5;
 }
 
+.projectDescription a {
+    color: inherit;
+    /* This will make the link inherit the text color */
+    text-decoration: none;
+    /* Remove underline if needed */
+    font-weight: bold;
+}
+
+.projectDescription a:hover {
+    text-decoration: underline;
+}
+
 .project svg {
     font-size: 60px;
     color: #1d1d1f;

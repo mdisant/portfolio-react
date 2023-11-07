@@ -23,7 +23,7 @@ function ProjectDisplay() {
                 <i>{project.skills}</i>
             </p>
             <div className='projectDescription'>
-                <p>{project.description}</p>
+                <p dangerouslySetInnerHTML={{ __html: project.description }} className="description-style"></p>
             </div>
 
             {project.ghLink && <a href={project.ghLink} target="_blank" rel="noopener noreferrer"><GitHubIcon /></a>}

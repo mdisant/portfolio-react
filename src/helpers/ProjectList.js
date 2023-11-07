@@ -19,7 +19,7 @@ export const ProjectList = [
         link: "nfl-connections",
         image: nfl_connections,
         skills: "Web Development, JavaScript",
-        description: "Welcome to the NFL Connections! Your mission is to identify groups of four items that share a common connection within the world of NFL. Select four items that you believe belong to the same category, then tap 'Submit' to check if your guess is accurate. The challenge is to identify these groups without making four incorrect guesses. Stay sharp!",
+        description: "Welcome to the NFL Connections! Your mission is to identify groups of four items that share a common connection within the world of NFL. Select four items that you believe belong to the same category, then tap 'Submit' to check if your guess is accurate. The challenge is to identify these groups without making four incorrect guesses. Stay sharp! <br><br> <a href=\"https://mdisant.github.io/nfl-connections/\" target='_blank'>Click here to play</a> <br><br>",
         ghLink: "https://github.com/mdisant/nfl-connections"
     },
     {
