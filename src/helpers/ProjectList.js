@@ -11,8 +11,17 @@ import cc_fraud_pred from "../assets/cc-fraud-pred.png";
 import nft_gen from "../assets/nft-gen.png";
 import house_prices from "../assets/house-prices.png";
 import pga from "../assets/pga.jpg";
+import nfl_connections from "../assets/nfl-connections.png";
 
 export const ProjectList = [
+    {
+        name: "NFL Connections",
+        link: "nfl-connections",
+        image: nfl_connections,
+        skills: "Web Development, JavaScript",
+        description: "Welcome to the NFL Connections! Your mission is to identify groups of four items that share a common connection within the world of NFL. Select four items that you believe belong to the same category, then tap 'Submit' to check if your guess is accurate. The challenge is to identify these groups without making four incorrect guesses. Stay sharp!",
+        ghLink: "https://github.com/mdisant/nfl-connections"
+    },
     {
         name: "PGA Predictor",
         link: "pga",
@@ -25,7 +34,7 @@ export const ProjectList = [
         name: "Personal Portfolio 3.0",
         link: "portfolio-3",
         image: portfolio_3,
-        skills: "Web Development",
+        skills: "Web Development, JavaScript",
         description: "This is the third iteration of my personal project portfolio. In taking the webpage to the next level, I developed the portfolio using React JS. With faster rendering, iterative development of components, and a greater capacity to showcase my work, I have realized the benefits of using such a powerful library. My favorite part: playing with the particles on the home page.",
         ghLink: "https://github.com/mdisant/portfolio-react"
     },
