@@ -22,14 +22,14 @@ export const ProjectList = [
         description: "Welcome to the NFL Connections! Your mission is to identify groups of four items that share a common connection within the world of NFL. Select four items that you believe belong to the same category, then tap 'Submit' to check if your guess is accurate. The challenge is to identify these groups without making four incorrect guesses. Stay sharp! <br><br> <a href=\"https://mdisant.github.io/nfl-connections/\" target='_blank'>Click here to play</a> <br><br>",
         ghLink: "https://github.com/mdisant/nfl-connections"
     },
-    {
-        name: "PGA Predictor",
-        link: "pga",
-        image: pga,
-        skills: "Python, Machine Learning",
-        description: "Golf is becoming a data-driven sport, where ShotLink technology is taking over the sport. This has introduced new variables in which players and fans can analyze PGA Tour performances. As deeper and more descriptive data enters the sport, machine learning models can be applied to predict final score outcomes and find the most important data points.",
-        ghLink: "https://github.com/mdisant/pga-ml"
-    },
+    // {
+    //     name: "PGA Predictor",
+    //     link: "pga",
+    //     image: pga,
+    //     skills: "Python, Machine Learning",
+    //     description: "Golf is becoming a data-driven sport, where ShotLink technology is taking over the sport. This has introduced new variables in which players and fans can analyze PGA Tour performances. As deeper and more descriptive data enters the sport, machine learning models can be applied to predict final score outcomes and find the most important data points.",
+    //     ghLink: "https://github.com/mdisant/pga-ml"
+    // },
     {
         name: "Personal Portfolio 3.0",
         link: "portfolio-3",
