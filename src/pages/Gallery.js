@@ -8,7 +8,7 @@ const Gallery = () => {
             {imageData.images.map((imageName, index) => (
                 <div key={index} className="gallery-item">
                     {/* Use the imported image name with the extension */}
-                    <img src={`/images/${imageName}.png`} alt={imageName} />
+                    <img src={`/images/${imageName}.jpg`} alt={imageName} />
                 </div>
             ))}
         </div>
