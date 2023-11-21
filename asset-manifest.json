@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.cb9826e3.css",
-    "main.js": "/static/js/main.fd013853.js",
+    "main.js": "/static/js/main.b02868d4.js",
     "static/media/massdep.png": "/static/media/massdep.d23dfdc1de2c95aed699.png",
     "static/media/portfolio-2.png": "/static/media/portfolio-2.743178162ef36cbe7dbf.png",
     "static/media/style_transfer.png": "/static/media/style_transfer.a9c9b789e0c28a605336.png",
     "static/media/house-prices.png": "/static/media/house-prices.4399bf390c794cc06a62.png",
     "static/media/twitter-crypto.png": "/static/media/twitter-crypto.8a4e9d3a5bf9fc3dfd3f.png",
     "static/media/si330.png": "/static/media/si330.12efa3299e99559ee545.png",
+    "static/media/acey-deucey.jpg": "/static/media/acey-deucey.873dcb5bfa2d5c928c19.jpg",
     "static/media/portfolio-3.png": "/static/media/portfolio-3.1d462aeb2f026d970bd1.png",
     "static/media/nft-gen.png": "/static/media/nft-gen.81dd11b55eb7ebd2d36d.png",
     "static/media/cc-fraud-pred.png": "/static/media/cc-fraud-pred.c446a75d98c827247b58.png",
@@ -17,10 +18,10 @@
     "static/media/msci.png": "/static/media/msci.c9ad0dcdac3c3465fbf6.png",
     "index.html": "/index.html",
     "main.cb9826e3.css.map": "/static/css/main.cb9826e3.css.map",
-    "main.fd013853.js.map": "/static/js/main.fd013853.js.map"
+    "main.b02868d4.js.map": "/static/js/main.b02868d4.js.map"
   },
   "entrypoints": [
     "static/css/main.cb9826e3.css",
-    "static/js/main.fd013853.js"
+    "static/js/main.b02868d4.js"
   ]
 }
