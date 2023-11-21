@@ -11,6 +11,7 @@ import cc_fraud_pred from "../assets/cc-fraud-pred.png";
 import nft_gen from "../assets/nft-gen.png";
 import house_prices from "../assets/house-prices.png";
 import pga from "../assets/pga.jpg";
+import acey_deucey from "../assets/acey-deucey.jpg"
 import nfl_connections from "../assets/nfl-connections.png";
 
 export const ProjectList = [
@@ -22,6 +23,16 @@ export const ProjectList = [
         description: "Welcome to the NFL Connections! Your mission is to identify groups of four items that share a common connection within the world of NFL. Select four items that you believe belong to the same category, then tap 'Submit' to check if your guess is accurate. The challenge is to identify these groups without making four incorrect guesses. Stay sharp! <br><br> <a href=\"https://mdisant.github.io/nfl-connections/\" target='_blank'>Click here to play</a> <br><br>",
         ghLink: "https://github.com/mdisant/nfl-connections"
     },
+
+    {
+        name: "Acey Deucey Analysis",
+        link: "acey-deucey",
+        image: acey_deucey,
+        skills: "Python, Machine Learning",
+        description: "Solving Acey Deucey using Reinforcement Learning revolves around the development of an intelligent agent through object-oriented programming in Python to optimize betting decisions in the card game 'Acey-Deucey'. The primary objective is to enhance the player's chances of success by strategically adapting betting choices based on the game state, the player's hand, and the pot size. The implementation includes an AceyDeuceyAgent class managing a Q-table, with methods for choosing actions and updating Q-values. The project initially aimed to establish an optimal betting strategy using reinforcement learning but shifted focus to analyzing winning probabilities for different card ranges, revealing that Acey Deucey is inherently a challenging game with a high likelihood of losses. The project provides valuable insights into the intersection of game theory, machine learning, and strategic decision-making, ultimately emphasizing the unfavorable nature of Acey Deucey as a game of chance.",
+        ghLink: "https://github.com/mdisant/acey-deucey"
+    },
+
     // {
     //     name: "PGA Predictor",
     //     link: "pga",
